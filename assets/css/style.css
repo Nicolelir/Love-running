@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a{
@@ -64,11 +67,21 @@ nav{
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     display:none;
+    top:100%; /*the css positioning is different when we apply flex, the top of the element should start at the bottom of its parent, 0(top of the parent) 100(bottom)*/
 }
 
+/*nav toggle*/
+#nav-toggle:checked~nav{
+    display:block;  
+} /*the nav covers completely to the logo needs to be fixed at nav styles*/
 
+#nav-toggle{
+    display:none;/*we hide the checkbox*/
+}
 
-
+.nav-toggle-label{
+    font-size: 2rem;
+}
 
 /* Main content */
 main {
