@@ -162,6 +162,14 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
     justify-content: center;
 }
 
+/*meet-ip times*/
+
+#times{
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display: flex; /*handles responsivity without the need for a media query*/
+    flex-wrap: wrap;/*handles responsivity without the need for a media query*/
+}
+
 
 /* Footer */
 #social-networks {
