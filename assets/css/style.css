@@ -147,7 +147,7 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
 }
 
 #circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
     height: 90vw;
     width: 90vw; /*to be a circle needs to have the same height and width*/
     margin-bottom: 20px;
@@ -164,12 +164,31 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
 
 /*meet-ip times*/
 
-#times{
-    background: url(../images/dublin-city.webp) no-repeat center/cover;
-    display: flex; /*handles responsivity without the need for a media query*/
-    flex-wrap: wrap;/*handles responsivity without the need for a media query*/
+/* Meetup Times section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
 
 /* Footer */
 #social-networks {
