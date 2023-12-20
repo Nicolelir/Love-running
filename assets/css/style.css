@@ -218,6 +218,15 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
     color: #3a3a3a;
 }
 
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -276,6 +285,10 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
     text-align: end;
     align-self: flex-end;
 }
+/* Gallery */
+#photos {
+    column-count: 3;
+}
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -284,6 +297,11 @@ position: relative;/*we set this relative to set absolute the pisitioning in cov
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+    
 /* X Large devices (laptops and desktops, 1200px and up) */
  /* Reasons section (to set the reasons at the left and right of the page and the image at center so we can use the vertical spaces better)*/   
  @media screen and (min-width: 1200px) {    
