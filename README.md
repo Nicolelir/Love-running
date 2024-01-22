@@ -39,7 +39,7 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
    - Used to create, edit & preview the project's code
 
 - [Google Fonts](https://fonts.google.com/)
-   - Used to import the 'Reboto' and 'Exo' fonts into the style.css file which are used on all pages of the project.
+   - Used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
 
 - [Smartmockups](https://smartmockups.com/)
    - Used to develop the wireframes in to a full mockup including colours, fonts, proportions, etc.
@@ -50,7 +50,9 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 ### The landing page image
 
 - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-- This section introduces the user to Love Running with an eye catching animation to grab their attention
+- This section introduces the user to Love Running with an eye catching animation to grab their attention.
+- On smaller screen sizes this size is reduced to work better with the aspect ratio of the photo and to provide a better user experience
+- The image and text are responsive, changing on different size screens, for legibility and aesthetic purposes.
 
 ![Image](/assets/images/landing%20page%20image.png)
 
