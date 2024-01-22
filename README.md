@@ -61,7 +61,6 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 - The navbar is fully responsive, featured in all 3 pages. Changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, Gallery and Sign Up page. 
 - It allows users to easily navigate the page,  without having to revert back to the previous page via the ‘back’ button. 
 - The page that the user is currently on is highlighted
-- There is a hover effect on the other nav links
 
 ![Image](/assets/images/nav%20bar.png)
 ![Image](/assets/images/nav%20bar%20small%20screen.png)
@@ -105,10 +104,6 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 - The user will be asked to submit their full name and email address.
 
 ![Image](/assets/images/sign%20Up.png)
-
-## Features Left to Implement
-
-Add JavaScript. 
 
 
 ## Testing
