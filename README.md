@@ -1,110 +1,189 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <p style="text-align: center;">Love Running</p>
 
-Welcome Nicole Rojas,
+![image](/assets/images/top%20image.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**by Nicole Rojas**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Click here to view the live web application](https://nicolelir.github.io/Love-running/)
 
-## Gitpod Reminders
+Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Index - Table of Content
 
-`python3 -m http.server`
+- [User Experience (UX)](#user-experience-ux)
+- [Design](#design)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-A blue button should appear to click: _Make Public_,
+## User Experience (UX)
 
-Another blue button should appear to click: _Open Browser_.
+The site is presented in a minimalist bur effective way, provide all the information the user needs. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User stories 
 
-A blue button should appear to click: _Make Public_,
+## Design
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Languages
 
-To log into the Heroku toolbelt CLI:
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Frameworks & Tools
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- [Favicon.io](https://favicon.io/)
+   - Used to create and add the favicon to the browser tab
 
-------
+- [Font Awesome](https://fontawesome.com/)
+   - Used to add icons to the site for aesthetic and UX purposes.
 
-## Release History
+- [GitHub](https://github.com/)
+   - Used to store the project code after being created in GitPod 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- [Gitpod](https://www.gitpod.io/)
+   - Used to create, edit & preview the project's code
 
-**September 20 2023:** Update Python version to 3.9.17.
+- [Google Fonts](https://fonts.google.com/)
+   - Used to import the 'Reboto' and 'Exo' fonts into the style.css file which are used on all pages of the project.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- [Smartmockups](https://smartmockups.com/)
+   - Used to develop the wireframes in to a full mockup including colours, fonts, proportions, etc.
+  
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Navigation Bar
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- The navbar is fully responsive, featured in all 3 pages. Changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, Gallery and Sign Up page. 
+- It allows users to easily navigate the page,  without having to revert back to the previous page via the ‘back’ button. 
+- The page that the user is currently on is highlighted
+- There is a hover effect on the other nav links
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Image]()
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Reasons section
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Divided in 4 sections: Feel healthy, Feel free, Get social and Feel strong. Each of them with a icon next to the title.
+- It contains a circular image in the centre of the section, that moves to the end of the section on small and medium screens.
+- The section is fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Image]()
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Meetup Times section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Divided in 5 sections, each of them with a icon next to the title. It will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+- This section will be updated as these times change to keep the user up to date, it is also fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Image]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Footer
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- The footer is featured on all three pages and is identical on each page making it easy to use. It contains four different icons for social media: Facebook, Twitter, Youtube and Instagram.  
+- The links will open to a new tab to allow easy navigation for the user.
+- The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Image]()
 
-------
 
-## FAQ about the uptime script
+### Gallery
 
-**Why have you added this script?**
+- The gallery will provide the user with supporting images to see what the meet ups look like.
+- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- These sections are also fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Image]()
 
-**How will this affect me?**
+### The Sign Up page
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. 
+- The user will be asked to submit their full name and email address.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Image]()
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Features Left to Implement
 
-**So….?**
+Add JavaScript. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Validator testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- HTML
+     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
+     ![Alt text]()
 
-**Anything more?**
+- CSS
+     - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
+     ![Alt text]()
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Browser Compatibility
 
----
+The site was tested on the following browsers
 
-Happy coding!
+- Google Chrome
+- Mozilla Firefox
+- Mricrosoft Edge
+- Safari on MacOS 
+
+
+## Deployment 
+
+### GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+
+1. In the GitHub repository, navigate to the Settings tab
+2. From the left hand menu select 'Pages'
+3. From the source select Branch: main
+4. Click 'Save'
+5. A live link will be displayed when published successfully.
+
+The live link can be found [here](https://nicolelir.github.io/Love-running/) .
+
+### Forking the GitHub Repository
+
+You can fork the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. lick on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned locally for you to use.
+
+## Credits
+
+### Code
+
+- Favicon.io: Used to create the site Favicon and provided the code in the head of all pages.
+
+### Content
+
+- Main content has been adapted and expanded from the original provided by Code Institute.
+
+### Media
+
+- The icons in the navbar and footer were taken from [Font Awesome](https://fontawesome.com/).
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/).
+- All images were provided by Code Institute.
+
+
+### Acknowledgements
+
+- The whole team at Code Institute for their teaching and support.
+
+
