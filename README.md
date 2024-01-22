@@ -10,8 +10,6 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 
 ## Index - Table of Content
 
-- [User Experience (UX)](#user-experience-ux)
-- [Design](#design)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Testing](#testing)
@@ -73,7 +71,6 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 - The section is fully responsive and stack vertically with styling and layout changes on smaller screens.
 
 ![Image](/assets/images/Reasons%20section.png)
-
 ![Image](/assets/images/reasons%20small%20screens.png)
 
 ### Meetup Times section
@@ -89,7 +86,7 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 - The links will open to a new tab to allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Image](//assets/images/footer.png)
+![Image](/assets/images/footer.png)
 
 
 ### Gallery
@@ -130,7 +127,7 @@ The site was tested on the following browsers
 
 - Google Chrome
 - Mozilla Firefox
-- Mricrosoft Edge
+- Microsoft Edge
 - Safari on MacOS 
 
 
@@ -181,7 +178,7 @@ The project will now be cloned locally for you to use.
 ### Media
 
 - The icons in the navbar and footer were taken from [Font Awesome](https://fontawesome.com/).
-- The fonts used were imported from [Google Fonts](https://fonts.google.com/).
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/). The fonts used for this project were Lato and Oswald. 
 - All images were provided by Code Institute.
 
 
