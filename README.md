@@ -18,13 +18,6 @@ Love Running is a site that hopes to help keep people motivated to meet up for r
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-## User Experience (UX)
-
-The site is presented in a minimalist bur effective way, provide all the information the user needs. 
-
-### User stories 
-
-## Design
 
 ## Technologies Used
 
@@ -33,7 +26,7 @@ The site is presented in a minimalist bur effective way, provide all the informa
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 
-## Frameworks & Tools
+### Tools
 
 - [Favicon.io](https://favicon.io/)
    - Used to create and add the favicon to the browser tab
@@ -56,6 +49,13 @@ The site is presented in a minimalist bur effective way, provide all the informa
 
 ## Features
 
+### The landing page image
+
+- The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+- This section introduces the user to Love Running with an eye catching animation to grab their attention
+
+![Image](/assets/images/landing%20page%20image.png)
+
 ### Navigation Bar
 
 - The navbar is fully responsive, featured in all 3 pages. Changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, Gallery and Sign Up page. 
@@ -63,7 +63,8 @@ The site is presented in a minimalist bur effective way, provide all the informa
 - The page that the user is currently on is highlighted
 - There is a hover effect on the other nav links
 
-![Image]()
+![Image](/assets/images/nav%20bar.png)
+![Image](/assets/images/nav%20bar%20small%20screen.png)
 
 ### Reasons section
 
@@ -71,14 +72,16 @@ The site is presented in a minimalist bur effective way, provide all the informa
 - It contains a circular image in the centre of the section, that moves to the end of the section on small and medium screens.
 - The section is fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-![Image]()
+![Image](/assets/images/Reasons%20section.png)
+
+![Image](/assets/images/reasons%20small%20screens.png)
 
 ### Meetup Times section
 
 - Divided in 5 sections, each of them with a icon next to the title. It will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 - This section will be updated as these times change to keep the user up to date, it is also fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-![Image]()
+![Image](/assets/images/meetup%20section.png)
 
 ### Footer
 
@@ -86,7 +89,7 @@ The site is presented in a minimalist bur effective way, provide all the informa
 - The links will open to a new tab to allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Image]()
+![Image](//assets/images/footer.png)
 
 
 ### Gallery
@@ -95,14 +98,14 @@ The site is presented in a minimalist bur effective way, provide all the informa
 - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 - These sections are also fully responsive and stack vertically with styling and layout changes on smaller screens.
 
-![Image]()
+![Image](/assets/images/gallery%20page.png)
 
 ### The Sign Up page
 
 - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. 
 - The user will be asked to submit their full name and email address.
 
-![Image]()
+![Image](/assets/images/sign%20Up.png)
 
 ## Features Left to Implement
 
@@ -115,11 +118,11 @@ Add JavaScript.
 
 - HTML
      - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
-     ![Alt text]()
+     ![validator HTML](/assets/images/html-validation-result.png)
 
 - CSS
      - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
-     ![Alt text]()
+     ![validator CSS](/assets/images/css-validation-result.png)
 
 ### Browser Compatibility
 
